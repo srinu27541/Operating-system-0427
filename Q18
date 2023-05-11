@@ -1,10 +1,3 @@
-18. Write a program for solving the producer consumer problem with the following scenario: The producer should produce data only when the buffer is not full. Data can only be consumed by the consumer if and only if the memory buffer is not empty.
-Test Case:
-Buffer Size: 3
-Consume an item in the beginning and show that the buffer is EMPTY
-Produce 4 items and show that the buffer is FULL.
-
-sol:
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
