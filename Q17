@@ -1,10 +1,4 @@
-17. Write a program to compute the average waiting time and average turnaround time based on Round Robin scheduling   for the following process with the given CPU burst times and quantum time slots  4 ms, ( and the assumption that all jobs arrive at the same time.)
-Process          Burst Time
-P1		24
-P2		3
-P3		3.
 
-sol:
 #include<stdio.h>
 
 // Define a struct to represent a process
