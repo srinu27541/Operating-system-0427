@@ -59,3 +59,16 @@ int main() {
 
     return 0;
 }
+output
+Test Case: Block added at the beginning
+Contiguous Allocation: 101 disk I/O operations
+Linked Allocation: 101 disk I/O operations
+Indexed Allocation: 101 disk I/O operations
+Test Case: Block added in the middle
+Contiguous Allocation: 2 disk I/O operations
+Linked Allocation: 102 disk I/O operations
+Indexed Allocation: 2 disk I/O operations
+Test Case: Block added at the end
+Contiguous Allocation: 2 disk I/O operations
+Linked Allocation: 200 disk I/O operations
+Indexed Allocation: 2 disk I/O operations
